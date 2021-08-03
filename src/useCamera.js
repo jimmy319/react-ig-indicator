@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 // constants
 const DEFAULT_NUMBER_OF_FOCUS_OBJECT = 3
 const MEDIUM_SCALE_RATIO = 0.7
-const SMALL_SCALE_RATIO = 0.4
+const SMALL_SCALE_RATIO = 0.5
 
 /**
  * Calculating the scene boundary and the size of dots on scene, depending on the position of the active dot.
