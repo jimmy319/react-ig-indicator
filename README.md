@@ -1,2 +1,2 @@
 # react-ig-indicator
-An Instagram-like indicator component 
+An Instagram-like page indicator component 

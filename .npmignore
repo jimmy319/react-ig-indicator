@@ -1,0 +1,5 @@
+__tests__/
+.github/
+.husky/
+babel.config.json
+rollup.config.js

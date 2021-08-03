@@ -1,0 +1,57 @@
+{
+  "name": "react-ig-indicator",
+  "version": "1.0.0",
+  "description": "An Instagram-like page indicator component",
+  "main": "./dist/Indicator.cjs.js",
+  "module": "./dist/Indicator.es.js",
+  "browser": "./dist/Indicator.umd.js",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "rollup -c",
+    "lint": "standard \"src/**/*.js\"",
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmy319/react-ig-indicator.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "indicator",
+    "instagram"
+  ],
+  "author": "CR Jimmy <jimmy74319@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmy319/react-ig-indicator/issues"
+  },
+  "homepage": "https://github.com/jimmy319/react-ig-indicator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.9",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^7.0.1",
+    "babel-jest": "^27.0.6",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.55.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "standard": "^16.0.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "lint-staged": {
+    "*.js": "standard --fix"
+  }
+}
