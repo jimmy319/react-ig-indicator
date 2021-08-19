@@ -1,6 +1,6 @@
 {
   "name": "react-ig-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Instagram-like page indicator component",
   "main": "./dist/Indicator.cjs.js",
   "module": "./dist/Indicator.es.js",
