@@ -19,7 +19,7 @@ yarn add react-ig-indicator
 ## Prerequisite
 
 ```
-react@16.8.0 and above (the one with hook)
+react@16.8.0 (the one with hook) and above
 ```
 
 ## Quick start
